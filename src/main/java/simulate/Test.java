@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by wso2123 on 8/30/16.
@@ -57,20 +58,29 @@ public class Test {
         chart.plot2SeriesChart(actual, "Actual", predicted, "Predicted");
 
     }
-    public static void test() throws ClassNotFoundException, IOException, URISyntaxException, MLModelHandlerException {
-        FileOperator fileOperator = new FileOperator();
-        PredictiveModel predictiveModel = new PredictiveModel("ma.Model.2016-08-31_10-53-56");
-        DataSet testDataset = fileOperator.openCSVFile("san.csv");
 
-        ArrayList<String[]> dataRows = testDataset.getDataRows();
-        ArrayList<String> predicted = new ArrayList<String>();
+    /*
+    public static void runClassificationRemainingTime(String modelName) throws ClassNotFoundException, IOException, URISyntaxException, MLModelHandlerException {
+        System.out.println("Testing Model : " + modelName);
+        System.out.println("---------------------------------------------------------------------");
+
+        FileOperator fileOperator = new FileOperator();
+        PredictiveModel predictiveModel = new PredictiveModel(modelName);
+
+        DataSet testDataset = fileOperator.openCSVFile("testData1.csv");
+        ArrayList<String[]> dataRows = Filter.remainingLifeFilter(testDataset, "UnitNumber");
 
         for(String[] row: dataRows){
-            predicted.add(String.valueOf(predictiveModel.predict(row)));
-        }
-
-        for(String s: predicted){
-            System.out.println(s);
+            String stat =  "0";
+            int count = Integer.parseInt(row[1]);
+            while(!stat.equals("1")){
+                row[1] = String.valueOf(count);
+                stat = String.valueOf(predictiveModel.predict(row));
+                System.out.println(stat);
+                count++;
+            }
+            System.out.println(count);
         }
     }
+    */
 }

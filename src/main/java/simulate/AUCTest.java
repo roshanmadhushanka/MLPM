@@ -46,6 +46,7 @@ public class AUCTest {
             confusionMatrix.generate(actual, predict);
             confusionMatrix.displayMatrix();
         }
-
     }
+
+
 }

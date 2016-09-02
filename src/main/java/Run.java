@@ -219,8 +219,10 @@ public class Run {
         MovingAverage.add(dataSet, "UnitNumber", features, 15);
         MovingMedian.add(dataSet, "UnitNumber", features, 15);
         StandardDeviation.add(dataSet, "UnitNumber", features, 15);
-        Autocorrelation.add(dataSet, "UnitNumber", features, 10, 4);
-        fileOperator.saveCSVFile("MLPM-RUL-00041.csv", dataSet);
+        MovingAverage.add(dataSet, "UnitNumber", features, 20);
+        MovingMedian.add(dataSet, "UnitNumber", features, 20);
+        StandardDeviation.add(dataSet, "UnitNumber", features, 20);
+        fileOperator.saveCSVFile("MLPM-RUL-00042.csv", dataSet);
         */
 
         //Test Data
@@ -237,12 +239,11 @@ public class Run {
         MovingAverage.add(testData, "UnitNumber", features, 15);
         MovingMedian.add(testData, "UnitNumber", features, 15);
         StandardDeviation.add(testData, "UnitNumber", features, 15);
-        Autocorrelation.add(testData, "UnitNumber", features, 5, 3);
         fileOperator.saveCSVFile("testData1.csv", testData);
         */
 
         //RFR.Model.2016-09-01_11-23-47
-        Test.testModel("RFR.Model.2016-09-01_13-37-20");
+        //Test.testModel("RFR.Model(1).2016-09-01_09-06-52");
         //Test.test();
 
         /*
