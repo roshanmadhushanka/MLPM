@@ -4,6 +4,7 @@ import data.DataSet;
 import ml.ConfusionMatrix;
 import ml.PredictiveModel;
 import mlMath.MLRandom;
+import mlPlot.Chart;
 import org.wso2.carbon.ml.core.exceptions.MLModelHandlerException;
 
 import java.io.IOException;
@@ -32,6 +33,16 @@ public class AUCTest {
         //Load model
         PredictiveModel predictiveModel = new PredictiveModel(modelName);
 
+        //ROC Plot data containers
+        ArrayList<Double> xAxisValues = new ArrayList<Double>();
+        ArrayList<Double> rocCurveValues = new ArrayList<Double>(); //ROC curve
+        ArrayList<Double> referenceCurveValues = new ArrayList<Double>(); //Reference curve
+
+        //Initialize curves
+        xAxisValues.add(0.0);
+        rocCurveValues.add(0.0);
+        referenceCurveValues.add(0.0);
+
         for(ArrayList<Integer> testCase: testCases){
             ArrayList<String> actual = new ArrayList<String>();
             ArrayList<String> predict = new ArrayList<String>();
@@ -45,7 +56,21 @@ public class AUCTest {
 
             confusionMatrix.generate(actual, predict);
             confusionMatrix.displayMatrix();
+
+            //ROC plot data
+            xAxisValues.add(confusionMatrix.getFalsePositiveRate());
+            referenceCurveValues.add(confusionMatrix.getFalsePositiveRate());
+            rocCurveValues.add(confusionMatrix.getTruePositiveRate());
         }
+
+        //Finalize curves
+        xAxisValues.add(1.0);
+        rocCurveValues.add(1.0);
+        referenceCurveValues.add(1.0);
+
+        Chart plot = new Chart("ROC Test", "ROC", "False Positive", "True Positive");
+        //plot.plotLineChart(xAxisValues, rocCurveValues, "ROC Curve");
+        plot.plot2SeriesChart(xAxisValues, rocCurveValues, "ROC Curve", xAxisValues, referenceCurveValues, "Reference Curve");
     }
 
 

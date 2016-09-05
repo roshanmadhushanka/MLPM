@@ -45,4 +45,32 @@ public class MLRandom {
         }
         return values;
     }
+
+    public ArrayList<Integer> repeatingRandom(int min, int max, int size){
+        ArrayList<Integer> values = new ArrayList<Integer>();
+        int count = 0;
+        Random r = new Random();
+        while(count < size){
+            int result = r.nextInt(max-min) + min;
+            values.add(result);
+            count++;
+        }
+        return values;
+    }
+
+    public ArrayList<ArrayList<Integer>> repeatingRandomList(int min, int max, int size, int rows){
+        ArrayList<ArrayList<Integer>> values = new ArrayList<ArrayList<Integer>>();
+        while(values.size() < rows){
+            ArrayList<Integer> tmp = new ArrayList<Integer>(size);
+            int count = 0;
+            Random r = new Random();
+            while(count < size){
+                int result = r.nextInt(max-min) + min;
+                tmp.add(result);
+                count++;
+            }
+            values.add(tmp);
+        }
+        return values;
+    }
 }

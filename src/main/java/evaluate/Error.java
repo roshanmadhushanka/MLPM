@@ -77,4 +77,27 @@ public class Error {
 
         return value;
     }
+
+    public static double meanAbsoluteError(ArrayList<Double> actual, ArrayList<Double> predicted){
+        double value = 0.0;
+        if(actual.size() != predicted.size()){
+            Logger.log(MESSAGE_TYPE.WARNING, "Actual and Predicted data sizes are not equal",
+                    "Error", "rootMeanSquarePercentageError");
+            return value;
+        }
+
+        double totalDifference = 0.0;
+        double actualValue;
+        double predictedValue;
+
+        for(int i=0; i<actual.size(); i++){
+            actualValue = actual.get(i);
+            predictedValue = predicted.get(i);
+            totalDifference += Math.abs(actualValue - predictedValue);
+        }
+
+        value = totalDifference / actual.size();
+
+        return value;
+    }
 }
