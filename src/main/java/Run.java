@@ -215,20 +215,24 @@ public class Run {
 //        DataSet dataSet = fileOperator.openCSVFile("train1.csv");
 //        RemainingUsefulLife.add(dataSet, "UnitNumber", "Time");
 //        String[] features = {"Sensor1", "Sensor2","Sensor3", "Sensor4", "Sensor5", "Sensor6", "Sensor7", "Sensor8", "Sensor9", "Sensor10", "Sensor11", "Sensor12", "Sensor13", "Sensor14", "Sensor15", "Sensor16","Sensor17", "Sensor18", "Sensor19", "Sensor20", "Sensor21"};
+//        MovingAverage.add(dataSet, "UnitNumber", features, 5);
+//        StandardDeviation.add(dataSet, "UnitNumber", features, 10);
 //        ProbabilityDistribution.add(dataSet, "UnitNumber", features, 250);
 //        String[] features1 = {"prob_250_Sensor1", "prob_250_Sensor2","prob_250_Sensor3", "prob_250_Sensor4", "prob_250_Sensor5", "prob_250_Sensor6", "prob_250_Sensor7", "prob_250_Sensor8", "prob_250_Sensor9", "prob_250_Sensor10", "prob_250_Sensor11", "prob_250_Sensor12", "prob_250_Sensor13", "prob_250_Sensor14", "Sensor15", "Sensor16","prob_250_Sensor17", "prob_250_Sensor18", "prob_250_Sensor19", "prob_250_Sensor20", "prob_250_Sensor21"};
 //        ZScore.add(dataSet, "UnitNumber", features1, 5, false);
-//        fileOperator.saveCSVFile("MLPM-RUL-00061.csv", dataSet);
+//        fileOperator.saveCSVFile("MLPM-RUL-00064.csv", dataSet);
 
 
         //Test data set 1
-//        FileOperator fileOperator = new FileOperator();
-//        DataSet testData = fileOperator.openCSVFile("testData1In.csv");
-//        String[] features = {"Sensor1", "Sensor2","Sensor3", "Sensor4", "Sensor5", "Sensor6", "Sensor7", "Sensor8", "Sensor9", "Sensor10", "Sensor11", "Sensor12", "Sensor13", "Sensor14", "Sensor15", "Sensor16","Sensor17", "Sensor18", "Sensor19", "Sensor20", "Sensor21"};
-//        ProbabilityDistribution.add(testData, "UnitNumber", features, 250);
-//        String[] features1 = {"prob_250_Sensor1", "prob_250_Sensor2","prob_250_Sensor3", "prob_250_Sensor4", "prob_250_Sensor5", "prob_250_Sensor6", "prob_250_Sensor7", "prob_250_Sensor8", "prob_250_Sensor9", "prob_250_Sensor10", "prob_250_Sensor11", "prob_250_Sensor12", "prob_250_Sensor13", "prob_250_Sensor14", "Sensor15", "Sensor16","prob_250_Sensor17", "prob_250_Sensor18", "prob_250_Sensor19", "prob_250_Sensor20", "prob_250_Sensor21"};
-//        ZScore.add(testData, "UnitNumber", features1, 5, false);
-//        fileOperator.saveCSVFile("testData1.csv", testData);
+        FileOperator fileOperator = new FileOperator();
+        DataSet testData = fileOperator.openCSVFile("testData1In.csv");
+        String[] features = {"Sensor1", "Sensor2","Sensor3", "Sensor4", "Sensor5", "Sensor6", "Sensor7", "Sensor8", "Sensor9", "Sensor10", "Sensor11", "Sensor12", "Sensor13", "Sensor14", "Sensor15", "Sensor16","Sensor17", "Sensor18", "Sensor19", "Sensor20", "Sensor21"};
+        MovingAverage.add(testData, "UnitNumber", features, 5);
+        StandardDeviation.add(testData, "UnitNumber", features, 10);
+        ProbabilityDistribution.add(testData, "UnitNumber", features, 250);
+        String[] features1 = {"prob_250_Sensor1", "prob_250_Sensor2","prob_250_Sensor3", "prob_250_Sensor4", "prob_250_Sensor5", "prob_250_Sensor6", "prob_250_Sensor7", "prob_250_Sensor8", "prob_250_Sensor9", "prob_250_Sensor10", "prob_250_Sensor11", "prob_250_Sensor12", "prob_250_Sensor13", "prob_250_Sensor14", "Sensor15", "Sensor16","prob_250_Sensor17", "prob_250_Sensor18", "prob_250_Sensor19", "prob_250_Sensor20", "prob_250_Sensor21"};
+        ZScore.add(testData, "UnitNumber", features1, 5, false);
+        fileOperator.saveCSVFile("RFR.Model.2016-09-06_11-20-32.csv", testData);
 
 
         //Test data set 2
@@ -242,28 +246,27 @@ public class Run {
 
 
         //RFR.Model.2016-09-01_11-23-47
-        //Test.testModel1("RFR.Model.2016-09-05_11-44-02");
-        //Test.testModel2("RFR.Model.2016-09-05_11-44-02");
+        //Test.testModel1("RFR.Model.2016-09-06_11-20-32");
         //Test.test();
 
-/*
+
         //AUC Test
         //RandomForest.Model.2016-08-25_14-42-48
-        FileOperator fileOperator = new FileOperator();
-        DataSet dataSet = fileOperator.openCSVFile("train1.csv");
-        BinaryClassification.add(dataSet, "UnitNumber", 30, "1", "0");
-        String[] features = {"Sensor1", "Sensor2","Sensor3", "Sensor4", "Sensor5", "Sensor6", "Sensor7", "Sensor8", "Sensor9", "Sensor10", "Sensor11", "Sensor12", "Sensor13", "Sensor14", "Sensor15", "Sensor16","Sensor17", "Sensor18", "Sensor19", "Sensor20", "Sensor21"};
-        ZScore.add(dataSet, "UnitNumber", features, true);
-        MovingAverage.add(dataSet, "UnitNumber", features, 5);
-        MovingMedian.add(dataSet, "UnitNumber", features, 5);
-        StandardDeviation.add(dataSet, "UnitNumber", features, 5);
-        MovingAverage.add(dataSet, "UnitNumber", features, 10);
-        MovingMedian.add(dataSet, "UnitNumber", features, 10);
-        StandardDeviation.add(dataSet, "UnitNumber", features, 10);
-        Autocorrelation.add(dataSet, "UnitNumber", features, 5, 3);
-        DataSet subset = dataSet.removeFromAbove("UnitNumber", 9);
+//        FileOperator fileOperator = new FileOperator();
+//        DataSet dataSet = fileOperator.openCSVFile("train1.csv");
+//        BinaryClassification.add(dataSet, "UnitNumber", 30, "1", "0");
+//        String[] features = {"Sensor1", "Sensor2","Sensor3", "Sensor4", "Sensor5", "Sensor6", "Sensor7", "Sensor8", "Sensor9", "Sensor10", "Sensor11", "Sensor12", "Sensor13", "Sensor14", "Sensor15", "Sensor16","Sensor17", "Sensor18", "Sensor19", "Sensor20", "Sensor21"};
+//        ZScore.add(dataSet, "UnitNumber", features, true);
+//        MovingAverage.add(dataSet, "UnitNumber", features, 5);
+//        MovingMedian.add(dataSet, "UnitNumber", features, 5);
+//        StandardDeviation.add(dataSet, "UnitNumber", features, 5);
+//        MovingAverage.add(dataSet, "UnitNumber", features, 10);
+//        MovingMedian.add(dataSet, "UnitNumber", features, 10);
+//        StandardDeviation.add(dataSet, "UnitNumber", features, 10);
+//        Autocorrelation.add(dataSet, "UnitNumber", features, 5, 3);
+//        DataSet subset = dataSet.removeFromAbove("UnitNumber", 9);
+//
+//        AUCTest.run("RandomForest.Model.2016-08-25_14-42-48", subset, 100, 100, "Binary-Classification");
 
-        AUCTest.run("RandomForest.Model.2016-08-25_14-42-48", subset, 100, 100, "Binary-Classification");
-*/
     }
 }

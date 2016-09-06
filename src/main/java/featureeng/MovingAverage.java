@@ -34,6 +34,7 @@ public class MovingAverage {
                 end = breakingPoints.get(i+1);
 
                 int pos = start;
+                int count = 1;
                 while(pos < start+window-1){
                     movingAverage.add("0.0");
                     pos++;

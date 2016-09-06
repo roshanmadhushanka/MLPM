@@ -20,6 +20,18 @@ public class Filter {
         return dataRows;
     }
 
+    public static ArrayList<String[]> remainingLifeFilter(DataSet dataSet, String categoryFeature, double percentile){
+        ArrayList<Integer> breakingPoints = dataSet.getBreakingPoints(categoryFeature);
+        ArrayList<String[]> dataRows = new ArrayList<String[]>();
+
+        for(int i=0; i<breakingPoints.size()-1; i++){
+            int index = breakingPoints.get(i) + (int) ((breakingPoints.get(i+1) - breakingPoints.get(i)) * percentile) - 1;
+            System.out.println(index);
+            dataRows.add(dataSet.getDataRow(index));
+        }
+        return dataRows;
+    }
+
     public static void removeUnwantedFeatures(DataSet dataSet, PredictiveModel mlModel){
         ArrayList<String> modelFeatures = new ArrayList<String>();
         for(Feature feature: mlModel.getMlModel().getFeatures()){

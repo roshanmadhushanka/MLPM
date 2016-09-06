@@ -25,11 +25,13 @@ public class Test {
         FileOperator fileOperator = new FileOperator();
         PredictiveModel predictiveModel = new PredictiveModel(modelName);
 
-        DataSet testDataset = fileOperator.openCSVFile("testData1.csv");
+        //DataSet testDataset = fileOperator.openCSVFile("testData1.csv");
+        DataSet testDataset = fileOperator.openCSVFile(modelName + ".csv");
         DataSet resultset = fileOperator.openCSVFile("result1.csv");
 
-        Filter.removeUnwantedFeatures(testDataset, predictiveModel);
+        //Filter.removeUnwantedFeatures(testDataset, predictiveModel);
         ArrayList<String[]> dataRows = Filter.remainingLifeFilter(testDataset, "UnitNumber");
+
 
         ArrayList<Double> predicted = new ArrayList<Double>();
         ArrayList<Double> actual = new ArrayList<Double>();
@@ -40,7 +42,11 @@ public class Test {
 
 
         for(String[] row: dataRows){
-            predicted.add(Double.parseDouble(String.valueOf(predictiveModel.predict(row))));
+            String[] tmp = new String[row.length-1];
+            for(int i=1; i<row.length; i++){
+                tmp[i-1] = row[i];
+            }
+            predicted.add(Double.parseDouble(String.valueOf(predictiveModel.predict(tmp))));
         }
 
         System.out.println("Actual\tPredicted");
@@ -72,7 +78,7 @@ public class Test {
         DataSet testDataset = fileOperator.openCSVFile("testData2.csv");
         DataSet resultset = fileOperator.openCSVFile("result2.csv");
 
-        Filter.removeUnwantedFeatures(testDataset, predictiveModel);
+        //Filter.removeUnwantedFeatures(testDataset, predictiveModel);
         ArrayList<String[]> dataRows = Filter.remainingLifeFilter(testDataset, "UnitNumber");
 
         ArrayList<Double> predicted = new ArrayList<Double>();

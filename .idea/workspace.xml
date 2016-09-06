@@ -2,61 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e161cb1-fb63-4d1a-8691-b1f44107b278" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/MLPM" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_08-23-14" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_09-25-45" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_09-58-31" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_10-10-21" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_10-21-17" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_10-33-55" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_10-49-10" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_11-16-38" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_11-30-15" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_11-41-25" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_11-57-45" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-02_12-23-07" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-03_21-35-32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-03_23-30-05" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-04_10-33-50" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/RFR.Model.2016-09-04_11-04-02" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/MLPM" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_08-23-14" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_09-25-45" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_09-58-31" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_10-10-21" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_10-21-17" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_10-33-55" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_10-49-10" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_11-16-38" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_11-30-15" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_11-41-25" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_11-57-45" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-02_12-23-07" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-03_21-35-32" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-03_23-30-05" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-04_10-33-50" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/RFR.Model.2016-09-04_11-04-02" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/result2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData2.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testData2In.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/result.csv" afterPath="$PROJECT_DIR$/result1.csv" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/testData.csv" afterPath="$PROJECT_DIR$/testData1In.csv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/featureeng/TestThread1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/featureeng/TestThread2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/featureeng/TestThread3.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Run.class" afterPath="$PROJECT_DIR$/target/classes/Run.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/evaluate/Error.class" afterPath="$PROJECT_DIR$/target/classes/evaluate/Error.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mlMath/MLRandom.class" afterPath="$PROJECT_DIR$/target/classes/mlMath/MLRandom.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mlPlot/Chart.class" afterPath="$PROJECT_DIR$/target/classes/mlPlot/Chart.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/simulate/AUCTest.class" afterPath="$PROJECT_DIR$/target/classes/simulate/AUCTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/data/Filter.class" afterPath="$PROJECT_DIR$/target/classes/data/Filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/featureeng/MovingAverage.class" afterPath="$PROJECT_DIR$/target/classes/featureeng/MovingAverage.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/simulate/Test.class" afterPath="$PROJECT_DIR$/target/classes/simulate/Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MLPM.iml" afterPath="$PROJECT_DIR$/MLPM.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Run.java" afterPath="$PROJECT_DIR$/src/main/java/Run.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/evaluate/Error.java" afterPath="$PROJECT_DIR$/src/main/java/evaluate/Error.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mlMath/MLRandom.java" afterPath="$PROJECT_DIR$/src/main/java/mlMath/MLRandom.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/mlPlot/Chart.java" afterPath="$PROJECT_DIR$/src/main/java/mlPlot/Chart.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simulate/AUCTest.java" afterPath="$PROJECT_DIR$/src/main/java/simulate/AUCTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/data/Filter.java" afterPath="$PROJECT_DIR$/src/main/java/data/Filter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java" afterPath="$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/simulate/Test.java" afterPath="$PROJECT_DIR$/src/main/java/simulate/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData1.csv" afterPath="$PROJECT_DIR$/testData1.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testData2.csv" afterPath="$PROJECT_DIR$/testData2.csv" />
     </list>
     <ignored path="MLPM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,25 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Run.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Run.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+            <state relative-caret-position="740">
+              <caret line="233" column="27" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Entropy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Entropy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -105,7 +51,7 @@
       <file leaf-file-name="AUCTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/simulate/AUCTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
+            <state relative-caret-position="275">
               <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,57 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Kurtosis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Kurtosis.java">
+      <file leaf-file-name="MovingAverage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfusionMatrix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/ConfusionMatrix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="84" column="76" selection-start-line="84" selection-start-column="76" selection-end-line="84" selection-end-column="76" />
-              <folding>
-                <element signature="method#ConfusionMatrix#0;class#ConfusionMatrix#0" expanded="false" />
-                <element signature="method#ConfusionMatrix#1;class#ConfusionMatrix#0" expanded="false" />
-                <element signature="e#645#646#0" expanded="false" />
-                <element signature="e#688#689#0" expanded="false" />
-                <element signature="e#730#731#0" expanded="false" />
-                <element signature="e#769#770#0" expanded="false" />
-                <element signature="e#812#813#0" expanded="false" />
-                <element signature="e#855#856#0" expanded="false" />
-                <element signature="e#892#893#0" expanded="false" />
-                <element signature="e#935#936#0" expanded="false" />
-                <element signature="e#970#971#0" expanded="false" />
-                <element signature="e#1013#1014#0" expanded="false" />
-                <element signature="method#getMCC#0;class#ConfusionMatrix#0" expanded="false" />
-                <element signature="method#getF1Score#0;class#ConfusionMatrix#0" expanded="false" />
-                <element signature="e#1352#1353#0" expanded="false" />
-                <element signature="e#1380#1381#0" expanded="false" />
-                <element signature="e#1412#1413#0" expanded="false" />
-                <element signature="e#1440#1441#0" expanded="false" />
-                <element signature="e#1472#1473#0" expanded="false" />
-                <element signature="e#1500#1501#0" expanded="false" />
-                <element signature="e#1532#1533#0" expanded="false" />
-                <element signature="e#1560#1561#0" expanded="false" />
-                <element signature="method#displaySummary#0;class#ConfusionMatrix#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mlPlot/Chart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="309">
+              <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -173,48 +73,92 @@
       <file leaf-file-name="Autocorrelation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Autocorrelation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="29" column="16" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="330">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
                 <element signature="method#measure#0;class#Autocorrelation#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MLRandom.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mlMath/MLRandom.java">
+      <file leaf-file-name="TestThread1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+            <state relative-caret-position="780">
+              <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4213#4214#0" expanded="true" />
+                <element signature="e#4234#4235#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/data/DataSet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+              <folding>
+                <element signature="method#DataSet#0;class#DataSet#0" expanded="false" />
+                <element signature="method#DataSet#1;class#DataSet#0" expanded="false" />
+                <element signature="method#addFeature#0;class#DataSet#0" expanded="false" />
+                <element signature="method#addDataColumn#0;class#DataSet#0" expanded="false" />
+                <element signature="method#addDataColumn#1;class#DataSet#0" expanded="false" />
+                <element signature="method#replaceDataColumn#0;class#DataSet#0" expanded="false" />
+                <element signature="method#replaceDataColumn#1;class#DataSet#0" expanded="false" />
+                <element signature="method#removeDataColumn#0;class#DataSet#0" expanded="false" />
+                <element signature="method#removeDataColumn#1;class#DataSet#0" expanded="false" />
+                <element signature="method#getRowCount#0;class#DataSet#0" expanded="false" />
+                <element signature="method#getColumnCount#0;class#DataSet#0" expanded="false" />
+                <element signature="method#getDataColumn#0;class#DataSet#0" expanded="false" />
+                <element signature="method#removeFromAbove#0;class#DataSet#0" expanded="false" />
+                <element signature="method#getDataRow#0;class#DataSet#0" expanded="false" />
+                <element signature="method#getDataRows#0;class#DataSet#0" expanded="false" />
+                <element signature="method#isEqual#0;class#DataSet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProbabilityDistribution.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/ProbabilityDistribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="101" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/simulate/Test.java">
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/local/java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="698">
+              <caret line="742" column="16" selection-start-line="742" selection-start-column="16" selection-end-line="742" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PredictiveModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ml/PredictiveModel.java">
+      <file leaf-file-name="TestThread2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <element signature="method#PredictiveModel#0;class#PredictiveModel#0" expanded="false" />
-                <element signature="method#getFeatures#0;class#PredictiveModel#0" expanded="false" />
-                <element signature="method#deserializeMLModel#0;class#PredictiveModel#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestThread3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -248,7 +192,6 @@
         <option value="$PROJECT_DIR$/src/main/java/featureeng/Autocorrelation.java" />
         <option value="$PROJECT_DIR$/src/main/java/featureeng/MovingMedian.java" />
         <option value="$PROJECT_DIR$/src/main/java/featureeng/StandardDeviation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java" />
         <option value="$PROJECT_DIR$/src/main/java/featureeng/ProbabilityDistribution.java" />
         <option value="$PROJECT_DIR$/src/main/java/featureeng/Entropy.java" />
         <option value="/usr/local/java/jdk1.8.0_101/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class" />
@@ -264,14 +207,16 @@
         <option value="$PROJECT_DIR$/src/main/java/mlMath/Random.java" />
         <option value="$PROJECT_DIR$/src/main/java/ml/PredictiveModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/ml/ConfusionMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data/DataSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/data/Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/evaluate/Error.java" />
         <option value="$PROJECT_DIR$/src/main/java/mlPlot/Chart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/simulate/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/mlMath/MLRandom.java" />
         <option value="$PROJECT_DIR$/src/main/java/simulate/AUCTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data/Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/simulate/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/Run.java" />
+        <option value="$PROJECT_DIR$/src/main/java/featureeng/TestThread1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data/DataSet.java" />
       </list>
     </option>
   </component>
@@ -283,10 +228,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="x" value="676" />
+    <option name="y" value="482" />
+    <option name="width" value="908" />
+    <option name="height" value="854" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -313,9 +258,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -930,7 +875,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="676" y="482" width="908" height="854" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -942,11 +887,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33298537" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42195767" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20342731" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42691416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -983,59 +928,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/StandardDeviation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#DataSet#0;class#DataSet#0" expanded="false" />
-            <element signature="method#DataSet#1;class#DataSet#0" expanded="false" />
-            <element signature="method#addFeature#0;class#DataSet#0" expanded="false" />
-            <element signature="method#addDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#addDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#replaceDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#replaceDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#removeDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#removeDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#getRowCount#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getColumnCount#0;class#DataSet#0" expanded="false" />
-            <element signature="e#4359#4360#0" expanded="false" />
-            <element signature="e#4395#4396#0" expanded="false" />
-            <element signature="e#4447#4448#0" expanded="false" />
-            <element signature="e#4479#4480#0" expanded="false" />
-            <element signature="method#getDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getBreakingPoints#0;class#DataSet#0" expanded="false" />
-            <element signature="method#removeFromAbove#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getDataRow#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getDataRows#0;class#DataSet#0" expanded="false" />
-            <element signature="method#isEqual#0;class#DataSet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/system/Setting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/log/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/log/MESSAGE_TYPE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1063,7 +955,6 @@
         <state relative-caret-position="480">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="method#DataSet#0;class#DataSet#0" expanded="false" />
             <element signature="method#DataSet#1;class#DataSet#0" expanded="false" />
             <element signature="method#addFeature#0;class#DataSet#0" expanded="false" />
@@ -1075,12 +966,7 @@
             <element signature="method#removeDataColumn#1;class#DataSet#0" expanded="false" />
             <element signature="method#getRowCount#0;class#DataSet#0" expanded="false" />
             <element signature="method#getColumnCount#0;class#DataSet#0" expanded="false" />
-            <element signature="e#4359#4360#0" expanded="false" />
-            <element signature="e#4395#4396#0" expanded="false" />
-            <element signature="e#4447#4448#0" expanded="false" />
-            <element signature="e#4479#4480#0" expanded="false" />
             <element signature="method#getDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getBreakingPoints#0;class#DataSet#0" expanded="false" />
             <element signature="method#removeFromAbove#0;class#DataSet#0" expanded="false" />
             <element signature="method#getDataRow#0;class#DataSet#0" expanded="false" />
             <element signature="method#getDataRows#0;class#DataSet#0" expanded="false" />
@@ -1169,13 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newE.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/MovingMedian.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1189,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="82" column="29" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/ProbabilityDistribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="85" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="85" />
         </state>
       </provider>
     </entry>
@@ -1251,47 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="62" column="76" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#DataSet#0;class#DataSet#0" expanded="false" />
-            <element signature="method#DataSet#1;class#DataSet#0" expanded="false" />
-            <element signature="method#addFeature#0;class#DataSet#0" expanded="false" />
-            <element signature="method#addDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#addDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#replaceDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#replaceDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#removeDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#removeDataColumn#1;class#DataSet#0" expanded="false" />
-            <element signature="method#getRowCount#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getColumnCount#0;class#DataSet#0" expanded="false" />
-            <element signature="e#4359#4360#0" expanded="false" />
-            <element signature="e#4395#4396#0" expanded="false" />
-            <element signature="e#4447#4448#0" expanded="false" />
-            <element signature="e#4479#4480#0" expanded="false" />
-            <element signature="method#getDataColumn#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getBreakingPoints#0;class#DataSet#0" expanded="false" />
-            <element signature="method#removeFromAbove#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getDataRow#0;class#DataSet#0" expanded="false" />
-            <element signature="method#getDataRows#0;class#DataSet#0" expanded="false" />
-            <element signature="method#isEqual#0;class#DataSet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/data/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testData1.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1319,27 +1150,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Entropy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Autocorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="16" selection-start-line="28" selection-start-column="8" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#measure#0;class#Autocorrelation#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ml/ConfusionMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
@@ -1347,26 +1157,8 @@
           <folding>
             <element signature="method#ConfusionMatrix#0;class#ConfusionMatrix#0" expanded="false" />
             <element signature="method#ConfusionMatrix#1;class#ConfusionMatrix#0" expanded="false" />
-            <element signature="e#645#646#0" expanded="false" />
-            <element signature="e#688#689#0" expanded="false" />
-            <element signature="e#730#731#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#812#813#0" expanded="false" />
-            <element signature="e#855#856#0" expanded="false" />
-            <element signature="e#892#893#0" expanded="false" />
-            <element signature="e#935#936#0" expanded="false" />
-            <element signature="e#970#971#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
             <element signature="method#getMCC#0;class#ConfusionMatrix#0" expanded="false" />
             <element signature="method#getF1Score#0;class#ConfusionMatrix#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="false" />
-            <element signature="e#1380#1381#0" expanded="false" />
-            <element signature="e#1412#1413#0" expanded="false" />
-            <element signature="e#1440#1441#0" expanded="false" />
-            <element signature="e#1472#1473#0" expanded="false" />
-            <element signature="e#1500#1501#0" expanded="false" />
-            <element signature="e#1532#1533#0" expanded="false" />
-            <element signature="e#1560#1561#0" expanded="false" />
             <element signature="method#displaySummary#0;class#ConfusionMatrix#0" expanded="false" />
           </folding>
         </state>
@@ -1376,14 +1168,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Kurtosis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
@@ -1398,32 +1182,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simulate/AUCTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ml/PredictiveModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+        <state relative-caret-position="240">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="method#getFeatures#0;class#PredictiveModel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Entropy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="81" column="35" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Kurtosis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="16" column="83" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/simulate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="80" column="10" selection-start-line="80" selection-start-column="10" selection-end-line="80" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ml/PredictiveModel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/simulate/AUCTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <element signature="method#PredictiveModel#0;class#PredictiveModel#0" expanded="false" />
-            <element signature="method#getFeatures#0;class#PredictiveModel#0" expanded="false" />
-            <element signature="method#deserializeMLModel#0;class#PredictiveModel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/simulate/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1432,10 +1238,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Run.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="264" column="0" selection-start-line="264" selection-start-column="0" selection-end-line="264" selection-end-column="0" />
+        <state relative-caret-position="740">
+          <caret line="233" column="27" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/MovingAverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/Autocorrelation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="method#measure#0;class#Autocorrelation#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/local/java/jdk1.8.0_101/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="742" column="16" selection-start-line="742" selection-start-column="16" selection-end-line="742" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/ProbabilityDistribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="101" column="5" selection-start-line="13" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/featureeng/TestThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="115" column="14" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4213#4214#0" expanded="true" />
+            <element signature="e#4234#4235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/data/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="57" column="11" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding>
+            <element signature="method#DataSet#0;class#DataSet#0" expanded="false" />
+            <element signature="method#DataSet#1;class#DataSet#0" expanded="false" />
+            <element signature="method#addFeature#0;class#DataSet#0" expanded="false" />
+            <element signature="method#addDataColumn#0;class#DataSet#0" expanded="false" />
+            <element signature="method#addDataColumn#1;class#DataSet#0" expanded="false" />
+            <element signature="method#replaceDataColumn#0;class#DataSet#0" expanded="false" />
+            <element signature="method#replaceDataColumn#1;class#DataSet#0" expanded="false" />
+            <element signature="method#removeDataColumn#0;class#DataSet#0" expanded="false" />
+            <element signature="method#removeDataColumn#1;class#DataSet#0" expanded="false" />
+            <element signature="method#getRowCount#0;class#DataSet#0" expanded="false" />
+            <element signature="method#getColumnCount#0;class#DataSet#0" expanded="false" />
+            <element signature="method#getDataColumn#0;class#DataSet#0" expanded="false" />
+            <element signature="method#removeFromAbove#0;class#DataSet#0" expanded="false" />
+            <element signature="method#getDataRow#0;class#DataSet#0" expanded="false" />
+            <element signature="method#getDataRows#0;class#DataSet#0" expanded="false" />
+            <element signature="method#isEqual#0;class#DataSet#0" expanded="false" />
           </folding>
         </state>
       </provider>
